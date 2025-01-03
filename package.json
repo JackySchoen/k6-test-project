@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "npm run build && node dist/server.js",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "cd test && k6 run k6-test.js"
   },
   "keywords": [],
   "author": "",
